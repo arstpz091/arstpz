@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    font-family: Montserrat, serif;
+}
+
+
+.nav-link {
+    color: antiquewhite;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(143, 142, 142);
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgb(193,150,40);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn-primary {
+    color: white !important;
+    background-color: rgba(33,37,41,255);
+    border: none;
+}
+
+.carousel-indicators {
+    margin-bottom: 4em;
+}
+
+.call-animation:hover {
+    animation: call 1s ease 0s 1 normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+    display: none;
+    }
+}
+   
+.footer-text {
+    color:black;
+}
+
+footer {
+    background-color: rgba(241,241,241,255);
+}
+
+
+
+
